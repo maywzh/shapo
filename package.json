@@ -1,0 +1,27 @@
+{
+  "name": "shapo",
+  "version": "0.0.1",
+  "description": "simple local static file server",
+  "keywords": [
+    "file",
+    "server"
+  ],
+  "author": "Wayne May",
+  "license": "MIT",
+  "dependencies": {
+   "debug": "^2.2.0",
+    "minimist": "^1.2.0",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.13.2",
+    "connect": "^3.6.6",
+    "connect-history-api-fallback": "^1.2.0"
+  },
+  "files": [
+    "bin"
+  ],
+  "main": "shapo.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "./shapo.js"
+  }
+}

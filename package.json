@@ -1,6 +1,6 @@
 {
   "name": "shapo",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "simple local static file server",
   "keywords": [
     "file",
@@ -17,11 +17,19 @@
     "connect-history-api-fallback": "^1.2.0"
   },
   "files": [
-    "bin"
+    "bin",
+    "src"
   ],
+  "bin":{
+    "shapo":"./bin/shapo"
+  },
   "main": "shapo.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maywzh/shapo.git"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "./shapo.js"
+    "test": "cat ./src/shapo.js > ./bin/shapo && ./src/shapo.js"
   }
 }

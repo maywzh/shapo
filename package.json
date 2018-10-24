@@ -1,7 +1,7 @@
 {
   "name": "shapo",
-  "version": "0.0.3",
-  "description": "simple local static file server",
+  "version": "0.0.4",
+  "description": "Super lightweight http file server",
   "keywords": [
     "file",
     "server"
